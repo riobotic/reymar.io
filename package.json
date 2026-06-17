@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -p 8080 -c-1",
+    "start": "python3 -m http.server 8080",
     "test": "node --check script.js"
   },
   "repository": {
@@ -17,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/riobotic/reymar.io/issues"
   },
-  "homepage": "https://github.com/riobotic/reymar.io#readme",
-  "dependencies": {
-    "http-server": "^14.1.1"
-  }
+  "homepage": "https://www.reymar.io"
 }
